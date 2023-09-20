@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>request blood</title>
+  <link rel="stylesheet" href="css/order.css">
+</head>
+
+<body>
+  <div class="contain">
+
+    <form action="request.php" method="post">
+
+
+      <label for="phone">Phone number:</label>
+      <input type="text" id="phone" name="phone" required>
+      <br> <br>
+      <label for="age">Enter a Age:</label>
+      <input type="number" min="1" id="age" name="age" required>
+      <br> <br>
+      <label for="units">Required unit:</label>
+      <input type="number" min="1" id="units" name="units" required>
+      <br> <br> 
+      <label for="blood-type">Blood Type:</label>
+      <select id="blood-type" name="type" required>
+        <option value="">Select Blood Type</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Submit request">
+    </form>
+    
+
+  </div>
+</body>
+
+
+</html>

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: red;
+    background-color: aliceblue;
+    font-size: 100px;
+  
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+   font-size: 20px;
+}
+
